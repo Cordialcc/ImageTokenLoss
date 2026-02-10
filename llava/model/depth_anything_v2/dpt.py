@@ -153,9 +153,9 @@ class DPTHead(nn.Module):
 class DepthAnythingV2(nn.Module):
     def __init__(
         self, 
-        encoder='vitl', 
-        features=256, 
-        out_channels=[256, 512, 1024, 1024], 
+        encoder='vitb', 
+        features=128, 
+        out_channels=[96, 192, 384, 768], 
         use_bn=False, 
         use_clstoken=False
     ):
